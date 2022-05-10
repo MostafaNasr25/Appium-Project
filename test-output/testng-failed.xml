@@ -3,13 +3,13 @@
 <suite parallel="none" name="Failed suite [Default suite]">
   <test parallel="none" name="Default test(failed)">
     <classes>
-      <class name="registerationandlogintests.RunApkApp">
+      <class name="registerationandlogintests.TestClass">
         <methods>
-          <include name="userCanRegister"/>
-          <include name="openApp"/>
           <include name="closeApp"/>
+          <include name="openApp"/>
+          <include name="checkSearch"/>
         </methods>
-      </class> <!-- registerationandlogintests.RunApkApp -->
+      </class> <!-- registerationandlogintests.TestClass -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
