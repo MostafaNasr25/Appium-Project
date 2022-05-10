@@ -1,4 +1,4 @@
-package registerationandlogintests;
+package tests;
 
 import java.net.URL;
 import java.util.concurrent.TimeUnit;
